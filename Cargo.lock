@@ -261,7 +261,7 @@ dependencies = [
 [[package]]
 name = "log_macro"
 version = "0.0.1"
-source = "git+https://github.com/qaqlyhqaq/log_marco.git#67fcdf9d13b61bde5cca44f43f5d56dcac0f3533"
+source = "git+https://github.com/qaqlyhqaq/log_marco.git#073e069ca904965cb195a60ac3938366fc1671fe"
 dependencies = [
  "quote",
  "syn 1.0.109",
