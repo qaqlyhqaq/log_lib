@@ -12,6 +12,10 @@ name = "use_marco_example"
 path = "src/tests/macro_example.rs"
 
 
+[[example]]
+name = "async_main_example"
+path = "src/examples/async_main_example.rs"
+
 [dependencies]
 log_macro = {git = "https://github.com/qaqlyhqaq/log_marco.git"}
 log = { version = "0.4" }
