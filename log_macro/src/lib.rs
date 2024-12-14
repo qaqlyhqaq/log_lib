@@ -1,6 +1,5 @@
 mod check;
 
-use std::ops::Index;
 use quote::quote;
 use syn::{ItemFn, parse_macro_input, AttributeArgs, NestedMeta};
 use syn::Meta::Path;
@@ -98,7 +97,7 @@ pub fn log_handler(
             error!("panic occurred: location:{:?},reason:{}", panic_info.location(),x);
         }));
         let _handle = log_lib::log4rs::init_config(config).unwrap();
-             println!("日志上下文初始化成功!");
+             log_lib::log::info!("journal context initialized succeed !");
         }
 
             #block
